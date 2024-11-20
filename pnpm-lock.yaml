@@ -432,8 +432,8 @@ importers:
         specifier: ^2.12.0
         version: 2.12.0
       '@liveblocks/node':
-        specifier: ^2.12.0
-        version: 2.12.0
+        specifier: ^2.12.1
+        version: 2.12.1
       '@liveblocks/react':
         specifier: ^2.12.0
         version: 2.12.0(react@18.3.1)
@@ -1897,8 +1897,11 @@ packages:
   '@liveblocks/core@2.12.0':
     resolution: {integrity: sha512-Bsd3dvsj97OruvuYyEWuZmLFihWzv/ghLGgBIBJFCY1AWrbQwkd0tRbkmRXpTtWJd8+902asoHajPYHhpeGWOA==}
 
-  '@liveblocks/node@2.12.0':
-    resolution: {integrity: sha512-m2mguyLjyWzCrwLbUd+s1Dox3W/IkG9k5OB7M9SdpWPaeTa53TLj/m5Il/dWNmLBMiPE3RyQ6f+QX66xYDQLTg==}
+  '@liveblocks/core@2.12.1':
+    resolution: {integrity: sha512-KcMhedNhypABDAwsCPopJ/O6pI/zIx3TWuqxRZIFz6RBrSAZUBOX0sGnbW1NvwXME6VQsvevk2sOC/BNfetBQw==}
+
+  '@liveblocks/node@2.12.1':
+    resolution: {integrity: sha512-PFeuP8dvVXyG9drbzQumaJJDCUHB/J5z6IeHDHfgiPoxg9wBPuClWAGw72/H0CBysK75GY2i+k2U/Boh2HIq/w==}
 
   '@liveblocks/react@2.12.0':
     resolution: {integrity: sha512-ivevtDYbda695WSa2TSwBjDILzY3Ys2cfc3BcfishELb/udb01ujDT6ZUUGzEKFdF5iNxFmfeis7OmmJSjKYCQ==}
@@ -8958,9 +8961,11 @@ snapshots:
 
   '@liveblocks/core@2.12.0': {}
 
-  '@liveblocks/node@2.12.0':
+  '@liveblocks/core@2.12.1': {}
+
+  '@liveblocks/node@2.12.1':
     dependencies:
-      '@liveblocks/core': 2.12.0
+      '@liveblocks/core': 2.12.1
       '@stablelib/base64': 1.0.1
       fast-sha256: 1.3.0
       node-fetch: 2.7.0
