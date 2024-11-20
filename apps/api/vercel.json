@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/cron/keep-alive",
+      "schedule": "*/10 * * * *"
+    },
+    {
+      "path": "/cron/db-events",
+      "schedule": "* * * * *"
+    }
+  ]
+}
